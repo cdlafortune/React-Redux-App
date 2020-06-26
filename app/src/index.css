@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1A1423;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.app {
+  padding: 2%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 6px 8px;
+  font-size: 16px;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #684756;
 }
